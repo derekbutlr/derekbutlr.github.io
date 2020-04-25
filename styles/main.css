@@ -31,7 +31,6 @@ p {
 html {
 color: #333333;
 font-family: Arial, Helvetica, sans-serif;
-font-weight:;
 }
 
 h1 {
@@ -162,8 +161,9 @@ table, td, th {
           -webkit-align-items: stretch;
           align-items: stretch;
   font-family: "Montserrat";
-  font-weight: 200;
-  padding-top: 30px;
+  font-weight: 150;
+  font-size: x-small;
+  padding-top: 140px;
 }
 
 .box0 {
@@ -177,7 +177,10 @@ table, td, th {
 
 .box1,
 .box2,
-.box3 {
+.box3,
+.box4,
+.box5,
+.box6 {
   -ms-flex-preferred-size: 33.33%;
       -webkit-flex-basis: 33.33%;
           flex-basis: 33.33%;
@@ -204,7 +207,10 @@ table, td, th {
 
 .box1:hover,
 .box2:hover,
-.box3:hover {
+.box3:hover,
+.box4:hover,
+.box5:hover,
+.box6:hover {
   -ms-flex-preferred-size: 50%;
       -webkit-flex-basis: 50%;
           flex-basis: 50%;
@@ -212,7 +218,11 @@ table, td, th {
 
 .box1:after,
 .box2:after,
-.box3:after {
+.box3:after,
+.box4:after,
+.box5:after,
+.box6:after
+{
   content: "";
   display: -webkit-box;
   display: -webkit-flex;
@@ -244,29 +254,52 @@ table, td, th {
 }
 
 .box1:after {
-  background-color: rgba(250, 117, 55, 0.72);
+  background-color: rgba(255, 246, 233, 0.72);
   content: "Definitions";
 }
 
 .box2:after {
-  background-color: rgba(186, 231, 75, 0.68);
+  background-color: rgba(255, 239, 215, 0.68);
   content: "Reflections";
 }
 
 .box3:after {
-  background-color: rgba(79, 183, 178, 0.67);
+  background-color: rgba(255, 254, 249, 0.67);
   content: "Boxes Explained";
 }
 
+.box4:after {
+  background-color: rgba(227, 240, 255, 0.67);
+  content: "About Me!";
+}
+
+.box5:after {
+  background-color: rgba(210, 231, 255, 0.77);
+  content: "One Liners";
+}
+
+.box6:after {
+  background-color: rgba(210, 183, 178, 0.67);
+  content: "Values";
+}
+
+
 .box1:hover:after,
 .box2:hover:after,
-.box3:hover:after {
+.box3:hover:after,
+.box4:hover:after,
+.box5:hover:after,
+.box6:hover:after {
   opacity: 1;
 }
 
 .box1:hover:after,
 .box2:hover:after,
-.box3:hover:after {
+.box3:hover:after 
+.box4:hover:after,
+.box5:hover:after,
+.box6:hver:after
+{
   background: none;
 }
 

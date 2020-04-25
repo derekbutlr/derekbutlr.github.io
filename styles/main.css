@@ -16,12 +16,10 @@ p {
   background: rgb(180, 200, 230, 0.4);
 }
 
-img {
-  padding: 15px;
-  margin-left: 450px;
+#padding-diagram {
   text-align: center;
 
-}
+
 
 .defaultTextBox {
   padding: 35;
@@ -81,7 +79,7 @@ table, td, th {
   
 }
 
-.page_header {
+.centre {
   text-align: center;
  
 }

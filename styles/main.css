@@ -86,7 +86,7 @@ table, td, th {
 }
 
 .left {
-  grid-area: left;
+  text-align: left;
 }
 
 .middle {

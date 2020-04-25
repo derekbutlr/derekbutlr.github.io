@@ -211,17 +211,17 @@ table, td, th {
 
 .box1:after {
   background-color: rgba(250, 117, 55, 0.72);
-  content: "1";
+  content: "Definitions";
 }
 
 .box2:after {
   background-color: rgba(186, 231, 75, 0.68);
-  content: "2";
+  content: "Reflections";
 }
 
 .box3:after {
   background-color: rgba(79, 183, 178, 0.67);
-  content: "3";
+  content: "Boxes Explained";
 }
 
 .box1:hover:after,

@@ -185,8 +185,7 @@ left: auto;
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700");
 
 .link-boxes {
-  height: 43.47vh;
-  width: 130.43vh;
+  height: 45vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;

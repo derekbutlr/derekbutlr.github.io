@@ -169,9 +169,6 @@ table, td, th {
 .box0 {
   border: #B0C4DE
   ;
-
-
-
 }
 
 
@@ -295,10 +292,10 @@ table, td, th {
 
 .box1:hover:after,
 .box2:hover:after,
-.box3:hover:after 
+.box3:hover:after,
 .box4:hover:after,
 .box5:hover:after,
-.box6:hver:after
+.box6:hover:after
 {
   background: none;
 }

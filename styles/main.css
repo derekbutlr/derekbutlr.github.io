@@ -11,7 +11,6 @@ html {
 body {
   background-image: url(../elements/clouds_art.png);
   background-attachment: fixed;
-  width: fit-content;
   height: 10%;
   background-size: cover;
   margin-left: auto;
@@ -40,13 +39,6 @@ p {
 
 
 
-h1 {
-text-align: centre;
-margin-left: auto;
-margin-right: auto;
-
-}
-
 .subscript {
   margin-left: 450px;
   padding: 15px;
@@ -63,6 +55,7 @@ header {
   font-size: 35px;
 }
 
+
 tr:hover td, tr:hover th {
   background-color: #ffff99;
 }
@@ -71,7 +64,6 @@ table, td, th {
   background-color: whitesmoke;
   border: 1.5px solid black;
   border-collapse: collapse;
-  width: 1250px;
   grid-area: middle;
   margin-left: auto;
   margin-right: auto;
@@ -79,6 +71,15 @@ table, td, th {
   box-shadow: 2px 2px 2px #888888;
   
 }
+
+td {
+  wi
+}
+
+
+
+
+
 
 .centre {
   text-align: center;
@@ -112,16 +113,17 @@ table, td, th {
   text-align: center;
 }
 
-.home_button {
-position: relative;
-left: auto;
-
+.head_left {
+left: 0;
+background-position-x: left;
 
 
 }
 
-
-
+.home_button {
+position: relative;
+left: auto;
+}
 
 
 .button {
@@ -151,14 +153,31 @@ left: auto;
 }
 
 
+.marquee {
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+}
 
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 5s linear infinite;
+}
 
+.marquee2 span {
+  animation-delay: 2.5s;
+}
 
-
-
-
-
-
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
 
 
 

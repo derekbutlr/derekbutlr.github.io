@@ -78,7 +78,7 @@ td {
 
 
 
-
+}
 
 
 .centre {
@@ -158,6 +158,7 @@ left: auto;
   white-space: nowrap;
   overflow: hidden;
   position: absolute;
+
 }
 
 .marquee span {

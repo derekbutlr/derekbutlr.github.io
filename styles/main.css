@@ -21,7 +21,7 @@ body {
 }
 
 p {
-  padding: 35px;
+  padding: 20px;
   background: rgb(180, 200, 230, 0.4);
 }
 
@@ -41,6 +41,16 @@ a {
   background-color: #B0C4DE;
 }
 
+/* Sprint 2 Technical Formatting  */
+#boxdiagram {
+float: left;
+
+}
+
+#diagramtext {
+  display: inline;
+  background-color: #333333;
+}
 
 
 
@@ -282,7 +292,8 @@ color:#888888;
   font-weight: 150;
   font-size: 4em;
   opacity:1;
-
+  z-index:1000;
+  mix-blend-mode: normal;
 }
 
 #definitions:after {
@@ -298,7 +309,7 @@ color:#888888;
 }
 
 #reflections-label:after {
-  content: "Reflections";
+  content: "Sprint2 - Cultural";
   color: black;
 }
 
@@ -307,7 +318,7 @@ color:#888888;
 }
 
 #boxexplained-label:after {
-  content: "Boxes Explained";
+  content: "Sprint2 - Tech";
   color: black;
 }
 
@@ -334,7 +345,7 @@ color:#888888;
 }
 
 #values-label:after {
-  content: "Values";
+  content: "Identity";
   color: black;
 }
 

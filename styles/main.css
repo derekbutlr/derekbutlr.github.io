@@ -199,18 +199,7 @@ color:#888888;
   padding-top: 140px;
 }
 
-.box0 {
-  border: #B0C4DE
-  ;
-}
-
-
-.box1,
-.box2,
-.box3,
-.box4,
-.box5,
-.box6 {
+.box {
   -ms-flex-preferred-size: 33.33%;
       -webkit-flex-basis: 33.33%;
           flex-basis: 33.33%;
@@ -235,24 +224,13 @@ color:#888888;
 	        background-size: cover
 }
 
-.box1:hover,
-.box2:hover,
-.box3:hover,
-.box4:hover,
-.box5:hover,
-.box6:hover {
+.box:hover {
   -ms-flex-preferred-size: 50%;
       -webkit-flex-basis: 50%;
           flex-basis: 50%;
 }
 
-.box1:after,
-.box2:after,
-.box3:after,
-.box4:after,
-.box5:after,
-.box6:after
-{
+.box:after {
   content: "";
   display: -webkit-box;
   display: -webkit-flex;
@@ -283,53 +261,47 @@ color:#888888;
   color: white;
 }
 
-.box1:after {
+#definitions:after {
   background-color: rgba(255, 246, 233, 0.72);
   content: "Definitions";
 }
 
-.box2:after {
+#reflections:after {
   background-color: rgba(255, 239, 215, 0.68);
   content: "Reflections";
 }
 
-.box3:after {
+#boxexplained:after {
   background-color: rgba(255, 254, 249, 0.67);
   content: "Boxes Explained";
 }
 
-.box4:after {
+#aboutme:after {
   background-color: rgba(227, 240, 255, 0.67);
   content: "About Me!";
 }
 
-.box5:after {
+#epic:after {
   background-color: rgba(210, 231, 255, 0.77);
   content: "Epic";
 }
 
-.box6:after {
+#values:after {
   background-color: rgba(210, 183, 178, 0.67);
   content: "Values";
 }
 
-
-.box1:hover:after,
-.box2:hover:after,
-.box3:hover:after,
-.box4:hover:after,
-.box5:hover:after,
-.box6:hover:after {
-  opacity: 1;
+#helpfullinks:after {
+  background-color: rgba(210, 183, 178, 0.67);
+  content: "Helpful Links";
 }
 
-.box1:hover:after,
-.box2:hover:after,
-.box3:hover:after,
-.box4:hover:after,
-.box5:hover:after,
-.box6:hover:after
-{
+
+.box:hover:after {
+ opacity: 1;
+}
+
+.box:hover:after {
   background: none;
 }
 

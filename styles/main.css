@@ -297,12 +297,14 @@ color:#888888;
 }
 
 
-.box:hover:after {
+#definitions:hover:after,
+#reflections:hover:after,
+#boxexplained:hover:after,
+#aboutme:hover:after,
+#epic:hover:after,
+#values:hover:after,
+#helpfullinks:hover:after {
  opacity: 1;
+ background: none;
 }
-
-.box:hover:after {
-  background: none;
-}
-
 

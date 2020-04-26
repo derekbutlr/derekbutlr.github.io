@@ -25,6 +25,8 @@ p {
   background: rgb(180, 200, 230, 0.4);
 }
 
+
+
 .defaultTextBox {
   padding: 35;
   position: relative;
@@ -36,6 +38,10 @@ p {
   font-size: 16px; 
   background-color: #B0C4DE;
 }
+
+
+
+
 
 
 
@@ -259,9 +265,11 @@ color:#888888;
           flex-direction: column;
   text-align: center;
   color: white;
+  
 }
 
-#definitions:after {
+
+#definitions>.box-label:after {
   background-color: rgba(255, 246, 233, 0.72);
   content: "Definitions";
 }

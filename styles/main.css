@@ -31,9 +31,6 @@ p {
   
 }
 
-#supersize {
- text-size-adjust: 1000%;
-}
 
 a {
   text-decoration: none;
@@ -69,6 +66,15 @@ float: left;
   border-color: #999fdb;
   border-style: double;
 
+}
+
+#ulreflections {
+padding: 20px;
+  background: rgb(180, 200, 230, 0.4);
+  background-color:rgb(180, 200, 230, 0.4) ;
+  border-radius: -10%;
+  border-color: #999fdb;
+  border-style: double;
 }
 
 #marginauto {

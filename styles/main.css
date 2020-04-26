@@ -240,7 +240,7 @@ color:#888888;
   background-position: center;
 	-webkit-background-size: cover;
           background-size: cover;
-  opacity: 50%;
+  opacity:1;
   mix-blend-mode: multiply;
 }
 
@@ -248,8 +248,8 @@ color:#888888;
   -ms-flex-preferred-size: 50%;
       -webkit-flex-basis: 50%;
           flex-basis: 50%;
+  opacity:1;
   mix-blend-mode: normal;
-  opacity: 1;
 }
 
 .box:after {
@@ -281,8 +281,8 @@ color:#888888;
           flex-direction: column;
   text-align: center;
   color: white;
+  
 }
-
 
 .box-label{
   text-align: center;
@@ -296,34 +296,77 @@ color:#888888;
   mix-blend-mode: normal;
 }
 
-.box-label:after {
+#definitions:after {
+  background-color: rgba(255, 246, 233, 0.72);
+}
+#definitions-label:after {
+  content: "Definitions";
   color: black;
 }
 
-#definitions-label:after {
-  content: "Definitions";
+#reflections:after {
+  background-color: rgba(255, 239, 215, 0.68);
 }
 
 #reflections-label:after {
   content: "Sprint2 - Cultural";
+  color: black;
+}
+
+#boxexplained:after {
+  background-color: rgba(255, 254, 249, 0.67);
 }
 
 #boxexplained-label:after {
   content: "Sprint2 - Tech";
+  color: black;
+}
+
+#aboutme:after {
+  background-color: rgba(227, 240, 255, 0.67);
 }
 
 #aboutme-label:after {
   content: "About Me!";
+  color: black;
+}
+
+#epic:after {
+  background-color: rgba(210, 231, 255, 0.77);
 }
 
 #epic-label:after {
   content: "Epic";
+  color: black;
+}
+
+#values:after {
+  background-color: rgba(210, 183, 178, 0.67);
 }
 
 #values-label:after {
   content: "Identity";
+  color: black;
+}
+
+#helpfullinks:after {
+  background-color: rgba(160, 183, 178, 0.67);
 }
 
 #helpfullinks-label:after {
   content: "Helpful Links";
+  color: black;
 }
+
+
+#definitions:hover:after,
+#reflections:hover:after,
+#boxexplained:hover:after,
+#aboutme:hover:after,
+#epic:hover:after,
+#values:hover:after,
+#helpfullinks:hover:after {
+ opacity: 1;
+ background: none;
+}
+

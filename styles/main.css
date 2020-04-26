@@ -23,6 +23,11 @@ body {
 p {
   padding: 20px;
   background: rgb(180, 200, 230, 0.4);
+  background-color:rgb(180, 200, 230, 0.4) ;
+  border-radius: -10%;
+  border-color: #999fdb;
+  border-style: double;
+  
 }
 
 a {
@@ -53,6 +58,17 @@ float: left;
 }
 
 
+#ulbg {
+  background-color:rgb(180, 200, 230, 0.4) ;
+  border-radius: -10%;
+  border-color: #999fdb;
+  border-style: double;
+
+}
+
+#marginauto {
+  padding-left: 30%;
+}
 
 
 

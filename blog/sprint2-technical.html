@@ -7,23 +7,23 @@
       <link rel="shortcut icon" type="image/jpg" href="../elements/favicon.ico"/>
   </head>
   <body>
-     
+    <div class="centre">
      <h1> Sprint 2 Technical Exercise </h1>
      <h2> What is the difference between Margin, Border, and Padding? </h2>
-
+    </div>
         <p> <strong> Margin is how much space is around an object. </strong>
-        <p> <strong> Padding is how much space is within an object sides and it’s contents. </strong>
-        <p> <strong> Border is between the margin and padding of an object. Only counted when given an actual width otherwise, it’s zero. </strong> </p>
-        <p> <em> The place where it all matters is defining width. Say you have a shoe box that is 12 inches long and six inches wide. No lid and you’re looking down into the box. Imagine the paper stuffing around the shoe. The shoe is the content, the paper is the padding and the box edge is the border. We’ll say the border is 1 inch so we can see the actual edge. Now place another box next to it, six inches away. That is the margin…the space between the two boxes. Still looking down on now two boxes, in CSS if you want to draw a container around both of those boxes, the width of that new container would be the:
+          <br>
+         <strong> Padding is how much space is within an object sides and it’s contents. </strong>
+         <br>
+         <strong> Border is between the margin and padding of an object. Only counted when given an actual width otherwise, it’s zero. </strong> 
+        <p> What matters is defining width. If you have a house (x) metres long – (y) metres wide –  a garden and fence surrounding it- and you are looking at it from a birds’ eye view. You can imagine inside the house as the content, the garden is the padding, and the fence is the border.  
+          A margin is the space outside of something, if you didn’t want the footpath outside your garden to be within an inch of your fence, you would give it a margin of 1 inch. 
+           </p>
 
-    Width of the box 1: 6 inches+ width of box 2: 6 inches + the margin between them: 6 inches plus, border of box1: 1 inch on each side so 2 inches + another 2 inches for the border on box 2. Your width for the container wrapped around both shoe boxes would be:
-    
-    6 + 6 + 6 + 2 + 2 = 22 inches wide </em> </p>
-
-
+           <div class="centre">
     <h1>What is a box model in CSS?</h1>
     <h2> The box model defines CSS dimension properties of an HTML element.</h2> 
- 
+           </div>
          <p>The <em>box model</em> is made up of four primary styling hooks: margin, border, padding, and width/height.
   <br>
       Think of it like a series of boxes (block-level elements) which contain, and can contain others which all have these properties.
@@ -33,12 +33,12 @@
       A parent can define a style which a child can either inherit, or define itself.</p>
    
     <img src="../elements/css_box_model.jpg" id="boxdiagram" alt="CSS box model">
-    <h5> <em> The above diagram each property of the box model. </em></h5>
+    <h5> <em>To the left is a diagram of each property in the box model. </em></h5>
 
    
       <h2 class="centre">A little more clarification!</h2>
     
-      <div>
+      <div id="marginauto">
 
 <p><strong>Margin:</strong> It lies outside the box and is basically used to separate itself from other markup elements.
   <br>
@@ -48,7 +48,7 @@
   <br>
 <strong>Height/Width:</strong> The dimensions of the actual box content and the amount of space that they take.
 </p>
-
+      </div>
 
 <h1 class="centre"> Don't get it? </h1>
 

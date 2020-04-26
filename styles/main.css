@@ -254,37 +254,16 @@ color:#888888;
 
 .box:after {
   content: "";
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   width: 100%;
   height: 100%;
   position: absolute;
-  left: 0;
-  top: 0;
-  -webkit-transition: 0.5s background-color cubic-bezier(0.23, 1, 0.32, 1);
-  -o-transition: 0.5s background-color cubic-bezier(0.23, 1, 0.32, 1);
-  transition: 0.5s background-color cubic-bezier(0.23, 1, 0.32, 1);
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-align-content: center;
-      -ms-flex-line-pack: center;
-          align-content: center;
-  font-size: 4em;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  text-align: center;
-  color: white;
-  
 }
 
-.box-label{
+.box:hover:after {
+ background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.box-label {
   text-align: center;
   margin: 10px auto;
   vertical-align: middle;
@@ -294,6 +273,7 @@ color:#888888;
   opacity:1;
   z-index:1000;
   mix-blend-mode: normal;
+  color: black;
 }
 
 #definitions:after {
@@ -301,7 +281,6 @@ color:#888888;
 }
 #definitions-label:after {
   content: "Definitions";
-  color: black;
 }
 
 #reflections:after {
@@ -310,7 +289,6 @@ color:#888888;
 
 #reflections-label:after {
   content: "Sprint2 - Cultural";
-  color: black;
 }
 
 #boxexplained:after {
@@ -319,7 +297,6 @@ color:#888888;
 
 #boxexplained-label:after {
   content: "Sprint2 - Tech";
-  color: black;
 }
 
 #aboutme:after {
@@ -328,7 +305,6 @@ color:#888888;
 
 #aboutme-label:after {
   content: "About Me!";
-  color: black;
 }
 
 #epic:after {
@@ -337,7 +313,6 @@ color:#888888;
 
 #epic-label:after {
   content: "Epic";
-  color: black;
 }
 
 #values:after {
@@ -346,7 +321,6 @@ color:#888888;
 
 #values-label:after {
   content: "Identity";
-  color: black;
 }
 
 #helpfullinks:after {
@@ -355,18 +329,4 @@ color:#888888;
 
 #helpfullinks-label:after {
   content: "Helpful Links";
-  color: black;
 }
-
-
-#definitions:hover:after,
-#reflections:hover:after,
-#boxexplained:hover:after,
-#aboutme:hover:after,
-#epic:hover:after,
-#values:hover:after,
-#helpfullinks:hover:after {
- opacity: 1;
- background: none;
-}
-

@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700");
 html {
   color: #333333;
   font-family: Arial, Helvetica, sans-serif;
@@ -25,7 +25,9 @@ p {
   background: rgb(180, 200, 230, 0.4);
 }
 
-
+a {
+  text-decoration: none;
+}
 
 .defaultTextBox {
   padding: 35;
@@ -182,7 +184,7 @@ color:#888888;
 
 
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700");
+
 
 .link-boxes {
   height: 45vh;
@@ -227,13 +229,17 @@ color:#888888;
           align-items: center;
   background-position: center;
 	-webkit-background-size: cover;
-	        background-size: cover
+          background-size: cover;
+  opacity:1;
+  mix-blend-mode: multiply;
 }
 
 .box:hover {
   -ms-flex-preferred-size: 50%;
       -webkit-flex-basis: 50%;
           flex-basis: 50%;
+  opacity:1;
+  mix-blend-mode: normal;
 }
 
 .box:after {
@@ -268,40 +274,77 @@ color:#888888;
   
 }
 
+.box-label{
+  text-align: center;
+  margin: 10px auto;
+  vertical-align: middle;
+  font-family: "Montserrat";
+  font-weight: 150;
+  font-size: 4em;
+  opacity:1;
 
-#definitions>.box-label:after {
+}
+
+#definitions:after {
   background-color: rgba(255, 246, 233, 0.72);
+}
+#definitions-label:after {
   content: "Definitions";
+  color: black;
 }
 
 #reflections:after {
   background-color: rgba(255, 239, 215, 0.68);
+}
+
+#reflections-label:after {
   content: "Reflections";
+  color: black;
 }
 
 #boxexplained:after {
   background-color: rgba(255, 254, 249, 0.67);
+}
+
+#boxexplained-label:after {
   content: "Boxes Explained";
+  color: black;
 }
 
 #aboutme:after {
   background-color: rgba(227, 240, 255, 0.67);
+}
+
+#aboutme-label:after {
   content: "About Me!";
+  color: black;
 }
 
 #epic:after {
   background-color: rgba(210, 231, 255, 0.77);
+}
+
+#epic-label:after {
   content: "Epic";
+  color: black;
 }
 
 #values:after {
   background-color: rgba(210, 183, 178, 0.67);
+}
+
+#values-label:after {
   content: "Values";
+  color: black;
 }
 
 #helpfullinks:after {
-  background-color: rgba(210, 183, 178, 0.67);
+  background-color: rgba(160, 183, 178, 0.67);
+}
+
+#helpfullinks-label:after {
   content: "Helpful Links";
+  color: black;
 }
 
 

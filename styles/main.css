@@ -28,6 +28,11 @@ p {
   border-color: #999fdb;
   border-style: double;
   
+  
+}
+
+#supersize {
+ text-size-adjust: 1000%;
 }
 
 a {
@@ -320,7 +325,7 @@ color:#888888;
 }
 
 #aboutme-label:after {
-  content: "About Me!";
+  content: "Sprint1 - Cultural";
 }
 
 #epic:after {

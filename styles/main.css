@@ -36,6 +36,27 @@ a {
   text-decoration: none;
 }
 
+#imageright {
+  position: relative;
+  border: 3px solid #666666;
+  position: center;
+  padding: 20px;
+  
+}
+
+#boximgtxt {
+  display: flex;
+  align-items: center;
+}
+
+.floatright {
+  float: right;
+  display: inline-flex;
+  position: relative;
+  bottom: 440px;
+  right: 175px;
+}
+
 .defaultTextBox {
   padding: 35;
   position: relative;
@@ -358,4 +379,12 @@ color:#888888;
 
 #helpfullinks-label:after {
   content: "Helpful Links";
+}
+
+#sprint3-tech:after {
+background-color: rgba(160, 152, 160, 0.67);
+}
+
+#sprint3-tech-label:after {
+  content: "Sprint3 Tech"
 }

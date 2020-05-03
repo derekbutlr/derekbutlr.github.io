@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700");
-html {
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700"); html {
   color: #333333;
   font-family: Arial, Helvetica, sans-serif;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
-  }
-
+}
 
 body {
   background-image: url(../elements/clouds_art.png);
@@ -23,14 +21,11 @@ body {
 p {
   padding: 20px;
   background: rgb(180, 200, 230, 0.4);
-  background-color:rgb(180, 200, 230, 0.4) ;
+  background-color: rgb(180, 200, 230, 0.4) ;
   border-radius: -10%;
   border-color: #999fdb;
   border-style: double;
-  
-  
 }
-
 
 a {
   text-decoration: none;
@@ -41,7 +36,6 @@ a {
   border: 3px solid #666666;
   position: center;
   padding: 20px;
-  
 }
 
 #boximgtxt {
@@ -65,14 +59,13 @@ a {
   border: 1px solid #cdcdcd;
   border-color: rgba(0,0,0,.15);
   background-color: white;
-  font-size: 16px; 
+  font-size: 16px;
   background-color: #B0C4DE;
 }
 
 /* Sprint 2 Technical Formatting  */
 #boxdiagram {
-float: left;
-
+  float: left;
 }
 
 #diagramtext {
@@ -80,19 +73,17 @@ float: left;
   background-color: #333333;
 }
 
-
 #ulbg {
-  background-color:rgb(180, 200, 230, 0.4) ;
+  background-color: rgb(180, 200, 230, 0.4) ;
   border-radius: -10%;
   border-color: #999fdb;
   border-style: double;
-
 }
 
 #ulreflections {
-padding: 20px;
+  padding: 20px;
   background: rgb(180, 200, 230, 0.4);
-  background-color:rgb(180, 200, 230, 0.4) ;
+  background-color: rgb(180, 200, 230, 0.4) ;
   border-radius: -10%;
   border-color: #999fdb;
   border-style: double;
@@ -102,15 +93,10 @@ padding: 20px;
   padding-left: 30%;
 }
 
-
-
-
 .subscript {
   margin-left: 450px;
   padding: 15px;
 }
-
-
 
 header {
   background-color: bisque;
@@ -120,7 +106,6 @@ header {
   text-align: center;
   font-size: 35px;
 }
-
 
 tr:hover td, tr:hover th {
   background-color: #ffff99;
@@ -135,20 +120,15 @@ table, td, th {
   margin-right: auto;
   padding: 15px;
   box-shadow: 2px 2px 2px #888888;
-  
 }
-
-
 
 .centre {
   text-align: center;
- 
 }
-.left,
-.middle,
-.right {
+
+.left, .middle, .right {
   padding: 10px;
-  height: 300px; 
+  height: 300px;
 }
 
 .left {
@@ -164,7 +144,6 @@ table, td, th {
   grid-area: right;
 }
 
-
 .footer {
   grid-area: footer;
   background-color: #f1f1f1;
@@ -173,52 +152,47 @@ table, td, th {
 }
 
 .head_left {
-left: 0;
-background-position-x: left;
-
-
+  left: 0;
+  background-position-x: left;
 }
 
 .home_button {
-position: relative;
-left: auto;
-color:#888888;
+  position: relative;
+  left: auto;
+  color: #888888;
 }
 
-
 .button {
-  display:inline-block;
-  padding:0.35em 1.2em;
-  border:0.1em solid #FFFFFF;
-  margin:0 0.3em 0.3em 0;
-  border-radius:0.12em;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #FFFFFF;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
   box-sizing: border-box;
-  text-decoration:none;
-  font-family:'Roboto',sans-serif;
-  font-weight:300;
- 
-  text-align:center;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  text-align: center;
   transition: all 0.2s;
 }
 
-  .button:hover{
-  color:#000000;
-  background-color:#FFFFFF;
-  }
-  @media all and (max-width:30em){
-  button1{
-    display:block;
-    margin: 0.4em auto;
-  }
+.button:hover {
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
+@media all and (max-width: 30em) {
+  button1 {
+      display:block;
+      margin: 0.4em auto;
+  }
+}
 
 .marquee {
   margin: 0 auto;
   white-space: nowrap;
   overflow: hidden;
   position: absolute;
-
 }
 
 .marquee span {
@@ -233,16 +207,13 @@ color:#888888;
 
 @keyframes marquee {
   0% {
-    transform: translate(0, 0);
+      transform: translate(0, 0);
   }
+
   100% {
-    transform: translate(-100%, 0);
+      transform: translate(-100%, 0);
   }
 }
-
-
-
-
 
 .link-boxes {
   height: 45vh;
@@ -252,13 +223,13 @@ color:#888888;
   display: -webkit-flex;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          -webkit-justify-content: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          -webkit-align-items: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  -webkit-align-items: stretch;
+  align-items: stretch;
   font-family: "Montserrat";
   font-weight: 150;
   font-size: x-small;
@@ -267,8 +238,8 @@ color:#888888;
 
 .box {
   -ms-flex-preferred-size: 33.33%;
-      -webkit-flex-basis: 33.33%;
-          flex-basis: 33.33%;
+  -webkit-flex-basis: 33.33%;
+  flex-basis: 33.33%;
   -webkit-transition: 0.5s flex-basis cubic-bezier(0.23, 1, 0.32, 1);
   -o-transition: 0.5s flex-basis cubic-bezier(0.23, 1, 0.32, 1);
   transition: 0.5s flex-basis cubic-bezier(0.23, 1, 0.32, 1);
@@ -278,26 +249,25 @@ color:#888888;
   display: -webkit-flex;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          -webkit-justify-content: flex-end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          -webkit-align-items: center;
-          align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
   background-position: center;
-	-webkit-background-size: cover;
-          background-size: cover;
-  opacity:1;
+  -webkit-background-size: cover;
+  background-size: cover;
+  opacity: 1;
   mix-blend-mode: multiply;
-
 }
 
 .box:hover {
   -ms-flex-preferred-size: 50%;
-      -webkit-flex-basis: 50%;
-          flex-basis: 50%;
-  opacity:1;
+  -webkit-flex-basis: 50%;
+  flex-basis: 50%;
+  opacity: 1;
   mix-blend-mode: normal;
 }
 
@@ -309,7 +279,7 @@ color:#888888;
 }
 
 .box:hover:after {
- background-color: rgba(255, 255, 255, 0) !important;
+  background-color: rgba(255, 255, 255, 0) !important;
 }
 
 .box-label {
@@ -320,8 +290,8 @@ color:#888888;
   font-weight: 150;
   font-size: 3.5em;
   text-shadow: 1px 0 rgb(207, 207, 207);
-  opacity:1;
-  z-index:1000;
+  opacity: 1;
+  z-index: 1000;
   mix-blend-mode: normal;
   color: black;
 }
@@ -329,6 +299,7 @@ color:#888888;
 #definitions:after {
   background-color: rgba(255, 246, 233, 0.72);
 }
+
 #definitions-label:after {
   content: "Definitions";
 }
@@ -382,7 +353,7 @@ color:#888888;
 }
 
 #sprint3-tech:after {
-background-color: rgba(160, 152, 160, 0.67);
+  background-color: rgba(160, 152, 160, 0.67);
 }
 
 #sprint3-tech-label:after {

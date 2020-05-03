@@ -333,7 +333,7 @@ table, td, th {
 }
 
 #epic-label:after {
-  content: "Epic";
+  content: "Null";
 }
 
 #values:after {
@@ -341,7 +341,7 @@ table, td, th {
 }
 
 #values-label:after {
-  content: "Identity";
+  content: "Null";
 }
 
 #helpfullinks:after {
@@ -349,7 +349,7 @@ table, td, th {
 }
 
 #helpfullinks-label:after {
-  content: "Helpful Links";
+  content: "Null";
 }
 
 #sprint3-tech:after {

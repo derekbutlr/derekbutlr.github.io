@@ -4,6 +4,7 @@
   width: 75%;
   margin-left: auto;
   margin-right: auto;
+  font-size: 115%;
 }
 
 body {
@@ -25,7 +26,15 @@ p {
   border-radius: -10%;
   border-color: #999fdb;
   border-style: double;
+  color: font-family: 'Orienta', sans-serif; font-size: 16px; line-height: 24px; margin: 0 0 24px; text-align: cent; }
 }
+
+h2 { font-size: 30px; letter-spacing: -1px; color: #929292; text-transform: uppercase; text-shadow: 1px 1px 0 #000, margin: 10px 0 24px; text-align: center; line-height: 50px; 
+}
+
+
+
+
 
 a {
   text-decoration: none;
@@ -309,7 +318,7 @@ table, td, th {
 }
 
 #reflections-label:after {
-  content: "Sprint2 - Cultural";
+  content: "Sprint2 Cultural";
 }
 
 #boxexplained:after {
@@ -317,7 +326,7 @@ table, td, th {
 }
 
 #boxexplained-label:after {
-  content: "Sprint2 - Tech";
+  content: "Sprint2 Tech";
 }
 
 #aboutme:after {
@@ -325,15 +334,15 @@ table, td, th {
 }
 
 #aboutme-label:after {
-  content: "Sprint1 - Cultural";
+  content: "Sprint1 Cultural";
 }
 
-#epic:after {
+#sprint3-cultural:after {
   background-color: rgba(210, 231, 255, 0.77);
 }
 
-#epic-label:after {
-  content: "Null";
+#sprint3-cultural-label:after {
+  content: "Sprint3 Cultural";
 }
 
 #values:after {

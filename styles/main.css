@@ -27,9 +27,11 @@ p {
   border-color: #999fdb;
   border-style: double;
   color: font-family: 'Orienta', sans-serif; font-size: 16px; line-height: 24px; margin: 0 0 24px; text-align: cent; }
-}
 
-h2 { font-size: 30px; letter-spacing: -1px; color: #929292; text-transform: uppercase; text-shadow: 1px 1px 0 #000, margin: 10px 0 24px; text-align: center; line-height: 50px; 
+
+h2 { 
+  
+  font-size: 30px; letter-spacing: -1px; color: #929292; text-transform: uppercase; text-shadow: 1px 1px 0 #000, margin: 10px 0 24px; text-align: left; line-height: 50px; 
 }
 
 
@@ -345,20 +347,20 @@ table, td, th {
   content: "Sprint3 Cultural";
 }
 
-#values:after {
+#sprint4-tech:after {
   background-color: rgba(210, 183, 178, 0.67);
 }
 
-#values-label:after {
-  content: "Null";
+#sprint4-tech-label:after {
+  content: "Sprint4 Tech";
 }
 
-#helpfullinks:after {
+#sprint4-cultural:after {
   background-color: rgba(160, 183, 178, 0.67);
 }
 
-#helpfullinks-label:after {
-  content: "Null";
+#sprint4-cultural-label:after {
+  content: "Sprint4 Cultural";
 }
 
 #sprint3-tech:after {
